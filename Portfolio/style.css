@@ -11,6 +11,18 @@ a:hover {
     color: rgb(40, 46, 82);
 }
 
+.body1 {
+    font-size: 12px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(40, 46, 82);
+  }
+
+  .body2 {
+    font-size: 12px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(100, 56, 14);
+  }
+
 .title {
     font-family: 'Yellowtail', cursive;
     font-size: 55px;
@@ -27,6 +39,12 @@ a:hover {
     font-family: 'Permanent Marker', cursive;
     font-size: 65px;
     color: rgb(40, 46, 82);
+}
+
+.testimonials-section-title {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 65px;
+    color: rgba(100, 56, 14, 0.61);
 }
 
 .img-wrap {
@@ -59,6 +77,31 @@ a:hover {
     font-size: 15px;
   }
 
+  .testimonials-bg {
+    opacity: 0.30;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+  }
+
+  .testimonials-content {
+    position: relative;
+    height: 100px;
+  }
+
+  .testimonials-content2 {
+    position: relative;
+    height: 750px;
+  }
+
+  .profileimg {
+    border-radius: 80px;
+    height: 5vw;
+    width: 5vw;
+  }
+
   .options-box {
     border-color: rgb(40, 46, 82);
     font-size: 12px;
@@ -68,16 +111,6 @@ a:hover {
 
   .options-box a {
     color: rgba(89, 114, 182, 0.829);
-  }
-
-  .body1 {
-    font-size: 12px;
-    font-family: 'Josefin Sans', sans-serif;
-    color: rgb(40, 46, 82);
-  }
-
-  .blue {
-    fill: rgb(116, 39, 39);
   }
 
   .services {
@@ -140,21 +173,45 @@ a:hover {
 }
 
 .table-img1 {
-    width: 100%;
+    width: 20vw;
+    height: 20vw;
+    margin: 2vw;
+    display: block;
 }
 
 .table-img2 {
-    width: 90%;
+    width: 20vw;
+    height: 20vw;
+    margin: 2vw;
+    display: block;
 }
 
 .table-img3 {
-    width: 100%;
+    width: 20vw;
+    height: 20vw;
+    margin: 2vw;
+    display: block;
 }
 
 .table-img4 {
-    width: 100%;
+    width: 20vw;
+    height: 20vw;
+    margin: 2vw;
+    display: block;
 }
 
 td {
-    width: 50%;
+    width: 20vw;
+}
+
+.blog-img {
+    height: 14vw;
+    width: 24vw;
+    border-radius: 20px;
+}
+
+.blog-date-box {
+    background-color: rgba(27, 60, 90, 0.555);
+    border-radius: 10px;
+    color: white;
 }
