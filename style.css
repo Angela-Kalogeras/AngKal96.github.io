@@ -52,6 +52,10 @@ a:hover {
     background-color: rgba(100, 56, 14, 0.459) !important;
     color: white !important;
   }
+  
+  button:hover {
+    background-color: rgba(14, 23, 100, 0.459) !important;
+  }
 
 .title {
     font-family: 'Yellowtail', cursive;
