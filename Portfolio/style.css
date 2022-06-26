@@ -1,0 +1,160 @@
+a {
+    color: rgb(40, 46, 82);
+}
+a:hover {
+    color: rgb(122, 125, 128);
+}
+
+.body {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    color: rgb(40, 46, 82);
+}
+
+.title {
+    font-family: 'Yellowtail', cursive;
+    font-size: 55px;
+    color: rgb(40, 46, 82);
+}
+
+.sub-title {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 20px;
+    color: rgb(40, 46, 82);
+}
+
+.section-title {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 65px;
+    color: rgb(40, 46, 82);
+}
+
+.img-wrap {
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .img-bg {
+    opacity: 0.4;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+  }
+  
+  .img-content {
+    position: relative;
+    height: 100px;
+  }
+
+  .img-content2 {
+    position: relative;
+    height: 250px;
+  }
+
+  .contact-box {
+    border: 1px solid;
+    border-color: rgb(40, 46, 82);
+    font-size: 15px;
+  }
+
+  .options-box {
+    border-color: rgb(40, 46, 82);
+    font-size: 12px;
+    border-radius: 25px;
+    box-shadow: 3px 3px 8px rgba(27, 34, 100, 0.432);
+  }
+
+  .options-box a {
+    color: rgba(89, 114, 182, 0.829);
+  }
+
+  .body1 {
+    font-size: 12px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(40, 46, 82);
+  }
+
+  .blue {
+    fill: rgb(116, 39, 39);
+  }
+
+  .services {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    color: rgb(95, 96, 100);
+  }
+
+  .design-col {
+    background-color: rgba(93, 111, 189, 0.459);
+    border-radius: 25px;
+  }
+
+  .design-col2 {
+    background-color: rgba(93, 146, 189, 0.459);
+    border-radius: 25px;
+  }
+
+  .design-col:hover {
+    background-color: rgba(187, 192, 212, 0.658);
+  }
+
+  .design-col2:hover {
+    background-color: rgba(187, 192, 212, 0.658);
+  }
+
+  .portfolio-bg {
+    background-image: url("https://webneel.com/wallpaper/sites/default/files/images/08-2013/15-beach-sand-starfish-wallpaper.jpg");
+  }
+
+  .portfolio-font {
+    font-family: 'Londrina Outline', cursive;
+    font-size: 200px;
+    color: rgba(27, 72, 194, 0.192);
+  }
+
+  .portfolio-font2 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 80px;
+    color: rgb(59, 60, 65);
+  }
+
+  .parentclass {
+    height: 200px;
+}
+
+.firstchild {
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.childclass {
+    position: absolute;
+    height: 106px;
+}
+
+.shadow {
+    text-shadow: 2px 2px 5px rgb(27, 34, 100);
+}
+
+.table-img1 {
+    width: 100%;
+}
+
+.table-img2 {
+    width: 90%;
+}
+
+.table-img3 {
+    width: 100%;
+}
+
+.table-img4 {
+    width: 100%;
+}
+
+td {
+    width: 50%;
+}
