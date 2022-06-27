@@ -13,6 +13,18 @@ a:hover {
     border-radius: 5px;
 }
 
+.portfolio-font {
+  font-family: 'Londrina Outline', cursive;
+  font-size: 200px;
+  color: rgba(27, 72, 194, 0.25);
+}
+
+.portfolio-font2 {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 80px;
+  color: rgb(59, 60, 65);
+}
+
 .body {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 20px;
@@ -107,7 +119,7 @@ a:hover {
 
   .contact-box {
     border: 1px solid;
-    border-color: rgb(40, 46, 82);
+    border-color: rgba(100, 56, 14, 0.61);
     font-size: 15px;
   }
 
@@ -200,17 +212,7 @@ a:hover {
     background-image: url("https://webneel.com/wallpaper/sites/default/files/images/08-2013/15-beach-sand-starfish-wallpaper.jpg");
   }
 
-  .portfolio-font {
-    font-family: 'Londrina Outline', cursive;
-    font-size: 200px;
-    color: rgba(27, 72, 194, 0.192);
-  }
-
-  .portfolio-font2 {
-    font-family: 'Permanent Marker', cursive;
-    font-size: 80px;
-    color: rgb(59, 60, 65);
-  }
+  
 
   .parentclass {
     height: 200px;
