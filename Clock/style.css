@@ -1,0 +1,178 @@
+.clock-face {
+    position: relative;
+    font-family: 'Rubik Bubbles', cursive;
+    color: rgba(244, 246, 247, 0.788);
+    width: 100%;
+    height: 100%;
+    transform: translateY(-3px);
+    z-index: 3;
+}
+
+.hand {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.05s;
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+    z-index: 3;
+}
+
+.hour-hand {
+    height: 6px;
+    border-radius: 20px;
+    background: rgb(255, 255, 255);
+}
+
+.min-hand {
+    height: 6px;
+    border-radius: 20px;
+    background: rgb(255, 255, 255);
+}
+
+.second-hand {
+    height: 3px;
+    background: rgb(102, 157, 173);
+}
+
+.clock {
+    width: 30rem;
+    height: 30rem;
+    border: 20px solid rgb(134, 83, 83);
+    border-radius: 50%;
+    margin: 50px auto;
+    position: relative;
+    padding: 2rem;
+    box-shadow: 0 0 0px 4px rgba(0, 0, 0, 0.1),
+        inset 0 0 0 3px #fcfafa27,
+        inset 0 0 10px rgb(255, 255, 255),
+        0 0 10px rgba(25, 115, 189, 0.2);
+    z-index: 3;
+}
+
+body {
+    font-size: 2rem;
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: center;
+    background-image: url("grumpy-cat.jpeg.webp");
+    background-size: cover;
+}
+
+@keyframes rotate-mike {
+
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes move-clouds-back {
+
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 10000px 5000px;
+    }
+}
+
+.clouds {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+}
+
+.clock-cat {
+    background-image: url("mike.png");
+    background-size: 65px;
+    position: absolute;
+    top: 42%;
+    right: 43%;
+    height: 4rem;
+    width: 4rem;
+    z-index: 5;
+    border-radius: 50%;
+    animation: rotate-mike 10s linear infinite;
+}
+
+.clouds {
+    background-image: url("cloud.png");
+    background-size: cover;
+    z-index: 1;
+    opacity: .3;
+    animation: move-clouds-back 250s linear infinite;
+}
+
+.clock-face .one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven, .twelve {
+    position: absolute;
+}
+
+.twelve {
+    top: 1%;
+    right: 47%;
+}
+
+.one {
+    top: 9%;
+    right: 23%;
+}
+
+.two {
+    top: 26%;
+    right: 8%;
+}
+
+.three {
+    top: 47%;
+    right: 2%;
+}
+
+.four {
+    bottom: 23%;
+    right: 11%;
+}
+
+.five {
+    bottom: 9%;
+    right: 27%;
+}
+
+.six {
+    bottom: 1%;
+    right: 47%;
+}
+
+.seven {
+    bottom: 9%;
+    left: 27%;
+}
+
+.eight {
+    bottom: 23%;
+    left: 11%;
+}
+
+.nine {
+    top: 47%;
+    left: 2%;
+}
+
+.ten {
+    top: 26%;
+    left: 8%;
+}
+
+.eleven {
+    top: 9%;
+    left: 23%;
+}
